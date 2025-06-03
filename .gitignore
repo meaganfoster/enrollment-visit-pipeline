@@ -1,0 +1,21 @@
+# Ignore Python artifacts
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+.venv/
+
+# Ignore all Excel and CSV files
+*.xlsx
+*.csv
+
+# Ignore entire output and data directories
+output/
+data/
+
+# Ignore logs
+*.log
+logs/
+
+# VSCode config (optional)
+.vscode/
