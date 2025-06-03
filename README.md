@@ -45,6 +45,7 @@ enrollment-visit-pipeline/
   
   ### Run the pipeline
   python run_enrollment_pipeline.py
+  
   Note: You’ll be asked whether to enable QA mode (writes step-by-step Excel outputs and runs validation).
 
 
