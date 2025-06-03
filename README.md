@@ -16,8 +16,7 @@ enrollment-visit-pipeline/
 ├── requirements.txt # Python dependencies
 └── README.md # You’re here!
 
-
-## ⚙️ How It Works
+## How It Works
 
 1. Load monthly enrollment data (`patient_id_month_year - patient_id_month_year.csv`) and outpatient visit records (`outpatient_visits_file.csv`)**
 2. **Sort and group into continuous enrollment periods**
