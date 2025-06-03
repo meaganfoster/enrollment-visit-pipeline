@@ -9,9 +9,12 @@ __pycache__/
 *.xlsx
 *.csv
 
-# Ignore entire output and data directories
-output/
-data/
+# Ignore all contents of data/ and output/, but keep the folders
+data/*
+!data/.gitkeep
+
+output/*
+!output/.gitkeep
 
 # Ignore logs
 *.log
